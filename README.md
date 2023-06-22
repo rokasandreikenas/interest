@@ -7,7 +7,10 @@ This is a Pinterest-inspired project built using [React](https://reactjs.org/), 
 
 ## Overview 
 
-This Pinterest-like web application allows users to search and view a multitude of images. It's a great demonstration of React's capabilities and provides a practical exercise in state management, API usage and Infinity scroll.
+This Pinterest-like web application allows users to search and view a multitude of images. It's a great demonstration of React's capabilities and provides a practical exercise in state management, API usage, and Infinity scroll.
+
+![Login](./screenshots/login.png)
+![Search](./screenshots/search.png)
 
 ## Features
 
