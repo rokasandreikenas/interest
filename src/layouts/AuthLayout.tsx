@@ -7,10 +7,10 @@ const AuthLayout = ({ children }: PropsWithChildren) => {
     <Grid container justifyContent="center" alignItems="center" height="100vh">
       <Grid item xs={12} md={7}>
         <Typography variant="h2" textAlign="center">
-          Sign up to get your ideas
+          Sign in to get your ideas
         </Typography>
       </Grid>
-      <Grid item xs={12} md={4}>
+      <Grid item xs={12} md={4} p={1}>
         {children}
       </Grid>
       <Grid item xs={1} />
