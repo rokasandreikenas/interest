@@ -17,7 +17,7 @@ const Home = () => {
   const [items, setItems] = useState<PixabayImage[]>([]);
   const { data, isLoading } = useImages(page, debouncedSearch);
   const images = data || [];
-  console.log(searchValue, ":", previousSearchValue);
+
   useEffect(() => {
     if (searchValue || (!searchValue && previousSearchValue)) {
       setPage(1);
